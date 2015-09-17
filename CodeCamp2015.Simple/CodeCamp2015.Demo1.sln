@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp2015.Domain", "CodeCamp2015.Domain\CodeCamp2015.Domain.csproj", "{88B535D9-B92E-41E2-9057-ECD1AFE08184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp2015.Data", "CodeCamp2015.Data\CodeCamp2015.Data.csproj", "{46E9AF72-BC9B-4912-B4FD-2DB031EF6B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp2015.Presentation", "CodeCamp2015.Presentation\CodeCamp2015.Presentation.csproj", "{90EC962A-7AD3-450E-A5D4-D2F722A568D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88B535D9-B92E-41E2-9057-ECD1AFE08184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B535D9-B92E-41E2-9057-ECD1AFE08184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B535D9-B92E-41E2-9057-ECD1AFE08184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B535D9-B92E-41E2-9057-ECD1AFE08184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E9AF72-BC9B-4912-B4FD-2DB031EF6B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E9AF72-BC9B-4912-B4FD-2DB031EF6B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E9AF72-BC9B-4912-B4FD-2DB031EF6B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E9AF72-BC9B-4912-B4FD-2DB031EF6B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90EC962A-7AD3-450E-A5D4-D2F722A568D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EC962A-7AD3-450E-A5D4-D2F722A568D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EC962A-7AD3-450E-A5D4-D2F722A568D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EC962A-7AD3-450E-A5D4-D2F722A568D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bos-tfs3.galenhealthcare.com:444/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CodeCamp2015.Domain\\CodeCamp2015.Domain.csproj
+		SccProjectName1 = CodeCamp2015.Domain
+		SccLocalPath1 = CodeCamp2015.Domain
+		SccProjectUniqueName2 = CodeCamp2015.Data\\CodeCamp2015.Data.csproj
+		SccProjectName2 = CodeCamp2015.Data
+		SccLocalPath2 = CodeCamp2015.Data
+		SccProjectUniqueName3 = CodeCamp2015.Presentation\\CodeCamp2015.Presentation.csproj
+		SccProjectName3 = CodeCamp2015.Presentation
+		SccLocalPath3 = CodeCamp2015.Presentation
+	EndGlobalSection
+EndGlobal

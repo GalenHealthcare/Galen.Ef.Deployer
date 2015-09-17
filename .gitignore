@@ -1,0 +1,16 @@
+obj
+bin
+obj/*
+bin/*
+packages
+packages/*
+deploy
+deploy/*
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+*.vsccc
+~$*

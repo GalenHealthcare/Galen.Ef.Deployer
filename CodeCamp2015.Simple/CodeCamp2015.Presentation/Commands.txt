@@ -1,0 +1,68 @@
+﻿Demo 1.0:
+
+ - overview
+ - build data
+ - run Demo1Deploy.ps1
+ - SSMS show database and data
+
+Demo 1.5: 
+
+ - modify patient domain entity
+
+ - add new migration too add new tables and drop a column
+
+     update-database -ConnectionString "Data Source=(localdb)\mssqllocaldb;Initial Catalog=DoesntMatter;Integrated Security=True;" -ConnectionProviderName "System.Data.SqlClient"
+	 Add-Migration "ClinicalSchemaAddAddressAsFirstClassCitizen" -ConnectionString "Data Source=(localdb)\mssqllocaldb;Initial Catalog=DoesntMatter;Integrated Security=True;" -ConnectionProviderName "System.Data.SqlClient"
+
+ - manually modify the created migration to backfix existing data (support ordering and backfix)
+
+     - create new table should happen first
+     - sql-based data backfix
+	 - drop obsolete column last
+
+	 - backfix sql:
+		UP:
+			INSERT INTO [demo1].[Address] (ID, PATIENTID, LINEONE, LINETWO, CITY, STATE, ZIP)
+					SELECT NEWID() as ID,
+					ID as PatientId, LineOne, LineTwo, City,
+					SUBSTRING(TheRest, 1, CHARINDEX(',', TheRest)-1) AS State, 
+					SUBSTRING(TheRest, CHARINDEX(',', TheRest)+1, LEN(TheRest)) AS Zip 
+					FROM (
+						SELECT ID, LineOne, LineTwo, 
+						SUBSTRING(TheRest, 1, CHARINDEX(',', TheRest)-1) AS City, 
+						SUBSTRING(TheRest, CHARINDEX(',', TheRest)+1, LEN(TheRest)) AS TheRest 
+						FROM (
+							SELECT ID, LineOne, 
+							SUBSTRING(TheRest, 1, CHARINDEX(',', TheRest)-1) AS LineTwo, 
+							SUBSTRING(TheRest, CHARINDEX(',', TheRest)+1, LEN(TheRest)) AS TheRest 
+							FROM (
+								SELECT Id,
+								SUBSTRING([Address], 1, CHARINDEX(',', [Address])-1) as LineOne,
+								SUBSTRING([Address], CHARINDEX(',', [Address])+1, LEN([Address])) as TheRest
+								FROM [demo1].[Patient]
+							) foo1
+						) foo2
+					) foo3
+		DOWN:
+			UPDATE DEMO1.Patient
+					SET [ADDRESS] = FOO.[ADDRESS]
+					FROM
+					(
+						SELECT PatientId, 
+						[LineOne] +', '+ +', '+ [LineTwo] +', '+ [City] +', '+ [State] +', '+ [Zip] AS [Address]
+						FROM [demo1].[Address]
+					) FOO
+					WHERE FOO.PatientId = Id
+			
+ - build data
+ - run Demo1Deploy.ps1
+ - SSMS show database and data
+
+ Demo 1.75:
+ 
+ - lets say for some reason we need to roll back
+   - darn accounting team and their custom microsoft access databases that secretly were pulling data from the database(s) who's schema we modified
+   - sounds crazy i know, but you obviously never worked at a financial company if you dont think this happens
+   - anyway, we need to roll back
+ - rolling back == deploying old version, so thats what were going to do. we'll "undo" the stuff from demo 1.5, going back to demo 1.0 state
+ - undo changes (grab a new copy of the solution if not connected to TFS), build and run deploy script

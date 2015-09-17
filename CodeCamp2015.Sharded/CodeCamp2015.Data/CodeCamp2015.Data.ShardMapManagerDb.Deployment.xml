@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<DeploymentConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionString>Server=(localdb)\mssqllocaldb; Initial Catalog=CodeCampDb-Demo2-ShardMapManager; Application Name=CodeCamp-Demo2;Integrated Security = true;</ConnectionString>
+  <LoginName UseWindowsLogin="false">CodeCampUser</LoginName>
+  <LoginPassword>SomeSuperSecretLocalPwThatsStoredUnencryptedInAConfigFileLol</LoginPassword>
+  <DatabaseUserName>CCUSR</DatabaseUserName>
+</DeploymentConfiguration>

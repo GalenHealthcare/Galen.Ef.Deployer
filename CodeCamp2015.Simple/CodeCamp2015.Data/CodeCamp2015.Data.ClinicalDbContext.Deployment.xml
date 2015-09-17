@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<DeploymentConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MigrationConfiguration Type="CodeCamp2015.Data.Migrations.Configuration" />
+  <InitializerConfiguration Type="Galen.Ci.EntityFramework.Initialization.CreateSecureSeededDatabaseIfNotExists`2[[CodeCamp2015.Data.ClinicalDbContext, CodeCamp2015.Data], [CodeCamp2015.Data.Seeding.TestDataSeeder, CodeCamp2015.Data]], Galen.Ci.EntityFramework.Initialization">
+    <!-- ServiceAccount Name="FILLINWINDOWSSERVICEACCOUNTNAME" DatabaseUser="SQLUSERACCOUNT" DatabaseUserPassword="SQLUSERPASSWORD" AccountType="Sql" / -->
+  </InitializerConfiguration>
+</DeploymentConfiguration>
