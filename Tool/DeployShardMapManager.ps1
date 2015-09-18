@@ -48,6 +48,7 @@ catch
 {
     $errorMessage = "Unknown error while deploying shard map manager database"
 	if($_.Exception) { $errorToLog = $_.Exception } else { $errorToLog = $Error }
-	Log-Error -message $errorMessage -exception $errorToLog -throwError $true
+    	Write-Host "Message: " + $errorMessage 
+    	Write-Host "Exception: " + $errorToLog 
     exit 1
 }

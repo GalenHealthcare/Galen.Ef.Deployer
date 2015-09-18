@@ -1,0 +1,14 @@
+﻿
+- describe demo 2 deploy script
+
+- show customers in the demo script
+
+- run it and present database
+
+- uncomment demo2deploy CLINIC4
+
+- uncomment sharded test data seeder
+
+- run demo script again
+ - new database was deployed
+ - test data was seeded to clinic db1 and db4

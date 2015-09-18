@@ -85,5 +85,6 @@ catch
 {
     $errorMessage = "Error synchronizing local databases."
     if ($_.Exception) { $errorToLog = $_.Exception } else { $errorToLog = $Error }
-    Log-Error -message $errorMessage -exception $errorToLog -throwError $true
+    Write-Host "Message: " + $errorMessage 
+    Write-Host "Exception: " + $errorToLog 
 }
