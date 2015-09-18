@@ -66,7 +66,7 @@ try
 		DeployScript=".\..\..\Tool\DeployShardMapManager.ps1";
 		DeploymentConfigurationFile=".\..\CodeCamp2015.Data\bin\Debug\CodeCamp2015.Data.ShardMapManagerDb.Deployment.xml"
 	}
-	
+
     Deploy-ShardMapManagerDb $ShardMapManagerDbDeploymentInfo
 
 

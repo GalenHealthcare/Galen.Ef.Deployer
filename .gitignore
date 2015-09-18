@@ -12,5 +12,6 @@ _ReSharper.*
 *.resharper
 *.suo
 *.cache
-*.vsccc
+*.vssscc
+*.vspscc
 ~$*
