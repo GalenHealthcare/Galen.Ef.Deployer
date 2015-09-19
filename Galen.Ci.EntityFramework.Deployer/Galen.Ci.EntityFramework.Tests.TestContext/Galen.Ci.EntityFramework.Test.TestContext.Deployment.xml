@@ -1,0 +1,5 @@
+﻿<?xml version="1.0"?>
+<DeploymentConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MigrationConfiguration Type="Galen.Ci.EntityFramework.Tests.TestContext.Data.Migrations.Configuration" />
+  <InitializerConfiguration Type="Galen.Ci.EntityFramework.Initialization.CreateSecureSeededDatabaseIfNotExists`2[[Galen.Ci.EntityFramework.Tests.TestContext.Data.TestDbContext, Galen.Ci.EntityFramework.Tests.TestContext], [Galen.Ci.EntityFramework.Tests.TestContext.Data.TestDataSeeder, Galen.Ci.EntityFramework.Tests.TestContext]], Galen.Ci.EntityFramework.Initialization" />
+</DeploymentConfiguration>

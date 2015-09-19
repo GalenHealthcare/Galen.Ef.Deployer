@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<DeploymentConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MigrationConfiguration Type="Galen.Enterprise.Security.Core.Data.Migrations.SecurityDbContext.Configuration" />
+  <InitializerConfiguration Type="Galen.Enterprise.Security.Core.Data.Initializers.SecurityDbContextCreateIfNotExistsWithTestData">
+	<ServiceAccount Name="SomeServiceAccount" DatabaseUser="SSA" DatabaseUserPassword="SomePassword" AccountType="Sql" />
+  </InitializerConfiguration>
+</DeploymentConfiguration>

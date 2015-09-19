@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.CI.Azure.Sql.Sharding", "Galen.CI.Azure.Sql.Sharding\Galen.CI.Azure.Sql.Sharding.csproj", "{69A839DA-1AD9-486E-9032-4FDE6D68EA52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D0B952F7-74A7-4A0C-AE01-D0706E8E22D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.Azure.Sql.Sharding.Tests", "Galen.CI.Azure.Sql.Sharding.Tests\Galen.Ci.Azure.Sql.Sharding.Tests.csproj", "{F515E371-32A2-47EF-BA00-88E918273F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.CI.Azure.Sql.Sharding.App", "Galen.CI.Azure.Sql.Sharding.App\Galen.CI.Azure.Sql.Sharding.App.csproj", "{F386A180-0C7C-4F9E-9CE8-3EC861BD036D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.CI.Azure.Sql.Sharding.App.Tests", "Galen.CI.Azure.Sql.Sharding.App.Tests\Galen.CI.Azure.Sql.Sharding.App.Tests.csproj", "{72D11801-D713-47E0-B9CC-DDF050827258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69A839DA-1AD9-486E-9032-4FDE6D68EA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A839DA-1AD9-486E-9032-4FDE6D68EA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A839DA-1AD9-486E-9032-4FDE6D68EA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A839DA-1AD9-486E-9032-4FDE6D68EA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F515E371-32A2-47EF-BA00-88E918273F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F515E371-32A2-47EF-BA00-88E918273F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F515E371-32A2-47EF-BA00-88E918273F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F515E371-32A2-47EF-BA00-88E918273F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F386A180-0C7C-4F9E-9CE8-3EC861BD036D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F386A180-0C7C-4F9E-9CE8-3EC861BD036D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F386A180-0C7C-4F9E-9CE8-3EC861BD036D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F386A180-0C7C-4F9E-9CE8-3EC861BD036D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D11801-D713-47E0-B9CC-DDF050827258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D11801-D713-47E0-B9CC-DDF050827258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D11801-D713-47E0-B9CC-DDF050827258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D11801-D713-47E0-B9CC-DDF050827258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F515E371-32A2-47EF-BA00-88E918273F0C} = {D0B952F7-74A7-4A0C-AE01-D0706E8E22D6}
+		{72D11801-D713-47E0-B9CC-DDF050827258} = {D0B952F7-74A7-4A0C-AE01-D0706E8E22D6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bos-tfs3.galenhealthcare.com:444/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Galen.CI.Azure.Sql.Sharding\\Galen.CI.Azure.Sql.Sharding.csproj
+		SccProjectName1 = Galen.CI.Azure.Sql.Sharding
+		SccLocalPath1 = Galen.CI.Azure.Sql.Sharding
+		SccProjectUniqueName2 = Galen.CI.Azure.Sql.Sharding.Tests\\Galen.Ci.Azure.Sql.Sharding.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = Galen.CI.Azure.Sql.Sharding.sln
+		SccProjectName2 = Galen.CI.Azure.Sql.Sharding.Tests
+		SccLocalPath2 = Galen.CI.Azure.Sql.Sharding.Tests
+		SccProjectUniqueName3 = Galen.CI.Azure.Sql.Sharding.App\\Galen.CI.Azure.Sql.Sharding.App.csproj
+		SccProjectName3 = Galen.CI.Azure.Sql.Sharding.App
+		SccLocalPath3 = Galen.CI.Azure.Sql.Sharding.App
+		SccProjectUniqueName4 = Galen.CI.Azure.Sql.Sharding.App.Tests\\Galen.CI.Azure.Sql.Sharding.App.Tests.csproj
+		SccProjectTopLevelParentUniqueName4 = Galen.CI.Azure.Sql.Sharding.sln
+		SccProjectName4 = Galen.CI.Azure.Sql.Sharding.App.Tests
+		SccLocalPath4 = Galen.CI.Azure.Sql.Sharding.App.Tests
+	EndGlobalSection
+EndGlobal

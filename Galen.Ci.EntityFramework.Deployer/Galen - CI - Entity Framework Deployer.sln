@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.EntityFramework", "Galen.Ci.EntityFramework\Galen.Ci.EntityFramework.csproj", "{463892DD-233C-4C9F-88AA-08EDF7F7C42B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.EntityFramework.Initialization", "Galen.Ci.EntityFramework.Initialization\Galen.Ci.EntityFramework.Initialization.csproj", "{AE4022F9-26AC-4027-A6A9-DB575698975B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B5D535BB-6491-4C5E-A035-510BF6C37ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.EntityFramework.Deployer.Tests", "Galen.Ci.EntityFramework.Deployer.Tests\Galen.Ci.EntityFramework.Deployer.Tests.csproj", "{78C344BE-56E0-4A55-9C0F-1EB8EE808C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.EntityFramework.Tests", "Galen.Ci.EntityFramework.Tests\Galen.Ci.EntityFramework.Tests.csproj", "{44B01446-D2B6-40B4-8ABB-3065239889B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.EntityFramework.Tests.TestContext", "Galen.Ci.EntityFramework.Tests.TestContext\Galen.Ci.EntityFramework.Tests.TestContext.csproj", "{4C98B2A8-1A30-484D-B1AA-8FFA13594038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.EntityFramework.Deployer", "Galen.Ci.EntityFramework.Deployer\Galen.Ci.EntityFramework.Deployer.csproj", "{54D6CD57-B52C-4DD6-81E5-AA2269F621A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.EntityFramework.Utilities.App", "Galen.Ci.EntityFramework.DeploymentHistory.App\Galen.Ci.EntityFramework.Utilities.App.csproj", "{BF0160B2-C2F9-4C5B-BED9-57B05865F521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E63E20E4-71FA-44D3-BD71-3DBCF842DCAB}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Galen.Ci.Nuget.Initializer.ps1 = Scripts\Galen.Ci.Nuget.Initializer.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galen.Ci.EntityFramework.Testing", "Galen.Ci.EntityFramework.Testing\Galen.Ci.EntityFramework.Testing.csproj", "{F1CF12CA-2F79-46AC-9041-7792EE8382DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{463892DD-233C-4C9F-88AA-08EDF7F7C42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463892DD-233C-4C9F-88AA-08EDF7F7C42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463892DD-233C-4C9F-88AA-08EDF7F7C42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463892DD-233C-4C9F-88AA-08EDF7F7C42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4022F9-26AC-4027-A6A9-DB575698975B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4022F9-26AC-4027-A6A9-DB575698975B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4022F9-26AC-4027-A6A9-DB575698975B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4022F9-26AC-4027-A6A9-DB575698975B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C344BE-56E0-4A55-9C0F-1EB8EE808C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C344BE-56E0-4A55-9C0F-1EB8EE808C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C344BE-56E0-4A55-9C0F-1EB8EE808C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C344BE-56E0-4A55-9C0F-1EB8EE808C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B01446-D2B6-40B4-8ABB-3065239889B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B01446-D2B6-40B4-8ABB-3065239889B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B01446-D2B6-40B4-8ABB-3065239889B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B01446-D2B6-40B4-8ABB-3065239889B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C98B2A8-1A30-484D-B1AA-8FFA13594038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C98B2A8-1A30-484D-B1AA-8FFA13594038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C98B2A8-1A30-484D-B1AA-8FFA13594038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C98B2A8-1A30-484D-B1AA-8FFA13594038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D6CD57-B52C-4DD6-81E5-AA2269F621A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D6CD57-B52C-4DD6-81E5-AA2269F621A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D6CD57-B52C-4DD6-81E5-AA2269F621A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D6CD57-B52C-4DD6-81E5-AA2269F621A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0160B2-C2F9-4C5B-BED9-57B05865F521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0160B2-C2F9-4C5B-BED9-57B05865F521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0160B2-C2F9-4C5B-BED9-57B05865F521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0160B2-C2F9-4C5B-BED9-57B05865F521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CF12CA-2F79-46AC-9041-7792EE8382DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CF12CA-2F79-46AC-9041-7792EE8382DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CF12CA-2F79-46AC-9041-7792EE8382DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CF12CA-2F79-46AC-9041-7792EE8382DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78C344BE-56E0-4A55-9C0F-1EB8EE808C5D} = {B5D535BB-6491-4C5E-A035-510BF6C37ABB}
+		{44B01446-D2B6-40B4-8ABB-3065239889B5} = {B5D535BB-6491-4C5E-A035-510BF6C37ABB}
+		{4C98B2A8-1A30-484D-B1AA-8FFA13594038} = {B5D535BB-6491-4C5E-A035-510BF6C37ABB}
+		{F1CF12CA-2F79-46AC-9041-7792EE8382DD} = {B5D535BB-6491-4C5E-A035-510BF6C37ABB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bos-tfs3.galenhealthcare.com:444/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Galen.Ci.EntityFramework\\Galen.Ci.EntityFramework.csproj
+		SccProjectName1 = Galen.Ci.EntityFramework
+		SccLocalPath1 = Galen.Ci.EntityFramework
+		SccProjectUniqueName2 = Galen.Ci.EntityFramework.Initialization\\Galen.Ci.EntityFramework.Initialization.csproj
+		SccProjectName2 = Galen.Ci.EntityFramework.Initialization
+		SccLocalPath2 = Galen.Ci.EntityFramework.Initialization
+		SccProjectUniqueName3 = Galen.Ci.EntityFramework.Deployer.Tests\\Galen.Ci.EntityFramework.Deployer.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = Galen\u0020-\u0020CI\u0020-\u0020Entity\u0020Framework\u0020Deployer.sln
+		SccProjectName3 = Galen.Ci.EntityFramework.Deployer.Tests
+		SccLocalPath3 = Galen.Ci.EntityFramework.Deployer.Tests
+		SccProjectUniqueName4 = Galen.Ci.EntityFramework.Tests\\Galen.Ci.EntityFramework.Tests.csproj
+		SccProjectTopLevelParentUniqueName4 = Galen\u0020-\u0020CI\u0020-\u0020Entity\u0020Framework\u0020Deployer.sln
+		SccProjectName4 = Galen.Ci.EntityFramework.Tests
+		SccLocalPath4 = Galen.Ci.EntityFramework.Tests
+		SccProjectUniqueName5 = Galen.Ci.EntityFramework.Tests.TestContext\\Galen.Ci.EntityFramework.Tests.TestContext.csproj
+		SccProjectTopLevelParentUniqueName5 = Galen\u0020-\u0020CI\u0020-\u0020Entity\u0020Framework\u0020Deployer.sln
+		SccProjectName5 = Galen.Ci.EntityFramework.Tests.TestContext
+		SccLocalPath5 = Galen.Ci.EntityFramework.Tests.TestContext
+		SccProjectUniqueName6 = Galen.Ci.EntityFramework.Deployer\\Galen.Ci.EntityFramework.Deployer.csproj
+		SccProjectName6 = Galen.Ci.EntityFramework.Deployer
+		SccLocalPath6 = Galen.Ci.EntityFramework.Deployer
+		SccProjectUniqueName7 = Galen.Ci.EntityFramework.DeploymentHistory.App\\Galen.Ci.EntityFramework.Utilities.App.csproj
+		SccProjectName7 = Galen.Ci.EntityFramework.DeploymentHistory.App
+		SccLocalPath7 = Galen.Ci.EntityFramework.DeploymentHistory.App
+		SccProjectUniqueName8 = Galen.Ci.EntityFramework.Testing\\Galen.Ci.EntityFramework.Testing.csproj
+		SccProjectTopLevelParentUniqueName8 = Galen\u0020-\u0020CI\u0020-\u0020Entity\u0020Framework\u0020Deployer.sln
+		SccProjectName8 = Galen.Ci.EntityFramework.Testing
+		SccLocalPath8 = Galen.Ci.EntityFramework.Testing
+	EndGlobalSection
+EndGlobal

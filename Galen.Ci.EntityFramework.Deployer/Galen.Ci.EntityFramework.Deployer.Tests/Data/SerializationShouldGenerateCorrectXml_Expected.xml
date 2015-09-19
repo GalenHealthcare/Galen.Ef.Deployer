@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<DeploymentConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MigrationConfiguration Type="Galen.Enterprise.Data.Migrations.SomeContext.Configuration" />
+  <InitializerConfiguration Type="Galen.Enterprise.Data.Initializers.SomeContextCreateDatabaseIfNotExists" DisableForcedSeeding="false">
+    <ServiceAccount Name="SomeWindowsAccountName" Domain="SomeDomainName" DatabaseUser="SomeDbUserName" AccountType="Windows" />
+  </InitializerConfiguration>
+</DeploymentConfiguration>
