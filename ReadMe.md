@@ -4,5 +4,5 @@ Right now this tooling is being iterated very quickly internally at Galen and we
 
 We'd love to hear from you, whether it be questions or contructive feedback. Shoot us an email at dev@galenhealthcare.com.
 
-Unless otherwise specificed, the code and samples in this repository are licensed under the MIT license.
+Unless otherwise specified, the code and samples in this repository are licensed under the MIT license.
 
